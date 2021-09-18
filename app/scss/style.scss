@@ -24,6 +24,7 @@
     color: $title;
     transition: all 0.3s;
     @extend %quicksand-400;
+    border-bottom: 1px solid transparent;
     &:hover {
       color: $accent;
       border-bottom: 1px solid $accent;
