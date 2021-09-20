@@ -20,15 +20,15 @@
     padding-left: 35px;
   }
   &__list-link {
-    padding-bottom: 1px;
+    padding-bottom: 0 2px 1px;
     color: $title;
     transition: all 0.3s;
-    @extend %quicksand-400;
+    @extend %roboto-400;
     border-bottom: 1px solid transparent;
     &:hover {
       color: $accent;
       border-bottom: 1px solid $accent;
-      @extend %quicksand-500;
+      @extend %roboto-700;
     }
   }
   &__list-link--active {
